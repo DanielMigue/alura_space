@@ -14,11 +14,9 @@
     <link rel="stylesheet" href="{% static '/styles/style.css'%}"><!--codigo python junto com html "indedado"-->
 </head>
 <body>
-
     {% include 'galeria/partials/_header.html'%}
-    {% block content %}
     {% include 'galeria/partials/_menu.html'%}
-    {% endblock %}
+    {% block content %} {% endblock %}
     {% include 'galeria/partials/_footer.html'%}
 </body>
 </html>
